@@ -43,6 +43,15 @@ blockquote {
   position: relative;
 }
 
+blockquote::before {
+  content: '\201c';
+  font-size: 4.2em;
+  position: absolute;
+  left: -46px;
+  top: 15px;
+  color: rgba(255,255,255,.4);
+}
+
 blockquote cite {
 	color: rgba(255,255,255,.4);
 }
