@@ -52,6 +52,14 @@ blockquote::before {
   color: rgba(255,255,255,.4);
 }
 
+blockquote::after {
+  content: '\201d';
+  font-size: 4.2em;
+  position: absolute;
+  bottom: -36px;
+  color: rgba(255,255,255,.4);
+}
+
 blockquote cite {
 	color: rgba(255,255,255,.4);
 }
