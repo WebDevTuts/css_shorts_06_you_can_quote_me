@@ -56,12 +56,16 @@ blockquote::after {
   content: '\201d';
   font-size: 4.2em;
   position: absolute;
-  bottom: -36px;
+   bottom: -36px;
   color: rgba(255,255,255,.4);
 }
 
 blockquote cite {
-	color: rgba(255,255,255,.4);
+  color: rgba(255,255,255,.4);
+  display: block;
+  font-size: 0.7em;
+  position: absolute;
+  bottom: -2.5em;
 }
 
 blockquote cite::before {
