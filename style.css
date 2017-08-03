@@ -2,7 +2,7 @@
 
 /*  This file was provided as part of a weekly web design tutorial series.
 	Sign-up for our newsletter, at http://codifydesign.com, to be notified
-	about each new episode of CSS Shorts  
+	about each new episode of CSS Shorts
 */
 
 @import url('https://fonts.googleapis.com/css?family=Copse|Orbitron');
@@ -10,7 +10,7 @@
 body {
 	font-family: 'Copse', serif;
 	line-height: 1.3em;
-	font-size: 16px;	
+	font-size: 16px;
 	margin: 0;
 	padding: 25px 0 50px 0;
 	font-family: 'Georgia', serif;
@@ -38,7 +38,9 @@ blockquote {
 	width: 75%;
 	margin: 50px auto 80px auto;
 	line-height: 1.3em;
-	color: #fff;
+  color: #fff;
+  font-size: 1.6em;
+  position: relative;
 }
 
 blockquote cite {
